@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flowers of the Philippines</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,500&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f4f1e8;--ink:#241f18;--muted:#6f6656;--line:#e0d9c8;--card:#fffdf8;--accent:#2f7d5b;--accent-2:#c2452f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Karla',system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(180deg,#eef0e4,#f4f1e8);border-bottom:1px solid var(--line);padding:56px 0 40px}
+.eyebrow{font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 14px}
+h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2.4rem,7vw,4.4rem);line-height:1.02;margin:0 0 18px;letter-spacing:-.01em}
+h1 em{font-style:italic;color:var(--accent-2);font-weight:500}
+.lede{max-width:60ch;font-size:1.06rem;color:var(--muted);margin:0}
+main{padding:44px 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .3s ease,box-shadow .3s ease}
+.card:hover{transform:translateY(-5px);box-shadow:0 18px 34px -20px rgba(36,31,24,.5)}
+.frame{position:relative;aspect-ratio:4/3;background:radial-gradient(circle at 50% 38%,#f1ecdd,#e6dfcc);display:grid;place-items:center;padding:14px}
+.frame img{width:100%;height:100%;object-fit:contain;display:block}
+.num{position:absolute;top:12px;left:12px;font-family:'Fraunces',serif;font-weight:600;font-size:.82rem;color:var(--accent);background:rgba(255,253,248,.85);padding:2px 9px;border-radius:999px;border:1px solid var(--line)}
+.body{padding:16px 18px 20px}
+h2{font-family:'Fraunces',serif;font-weight:600;font-size:1.4rem;margin:0 0 8px}
+p{margin:0;font-size:.95rem;color:var(--muted)}
+footer{border-top:1px solid var(--line);margin-top:40px;padding:26px 0 46px;color:var(--muted);font-size:.85rem}
+</style>
+<style id="kibo-fit">img{object-fit:contain !important;object-position:center !important}</style></head>
+<body>
+<header>
+<div class="wrap">
+<p class="eyebrow">A Field Guide · The Philippine Archipelago</p>
+<h1>Flowers of the <em>Philippines</em></h1>
+<p class="lede">From the fragrant national flower to the world's largest bloom, the islands carry a remarkable collection of blossoms. Here are ten of the most beloved, each with a little of its story.</p>
+</div>
+</header>
+<main>
+<div class="wrap">
+<div class="grid">
+<article class="card">
+<div class="frame"><span class="num">01</span><img src="img/sampaguita-1-3fa96c.jpg" alt="Sampaguita"></div>
+<div class="body"><h2>Sampaguita</h2><p>The national flower of the Philippines, the sampaguita is a small, star-shaped white blossom with a sweet, honeyed scent. It is woven into garlands for weddings and worn in the hair as a symbol of purity and humility.</p></div>
+</article>
+<article class="card">
+<div class="frame"><span class="num">02</span><img src="img/gumamela-1-397175.png" alt="Gumamela"></div>
+<div class="body"><h2>Gumamela</h2><p>Gumamela, the hibiscus, is a bold tropical bloom with large, trumpet-shaped petals in red, pink, and yellow. It thrives in the warm climate and is a common sight in gardens and along roadside verges.</p></div>
+</article>
+<article class="card">
+<div class="frame"><span class="num">03</span><img src="img/waling-waling-1-2267b6.png" alt="Waling-waling"></div>
+<div class="body"><h2>Waling-waling</h2><p>Known as the "Queen of Philippine Orchids," the waling-waling is a striking epiphyte with a fan of green leaves and a dramatic plume of pink and yellow flowers. It is prized by collectors and appears on Philippine postage stamps.</p></div>
+</article>
+<article class="card">
+<div class="frame"><span class="num">04</span><img src="img/orchid-1-69ed63.jpg" alt="Orchid"></div>
+<div class="body"><h2>Orchid</h2><p>Orchids are among the most diverse flowering plants on Earth, and the Philippines is home to hundreds of native species. Their intricate, often fragrant blooms make them a favorite of gardeners and botanists alike.</p></div>
+</article>
+<article class="card">
+<div class="frame"><span class="num">05</span><img src="img/rafflesia-1-ca077e.jpg" alt="Rafflesia"></div>
+<div class="body"><h2>Rafflesia</h2><p>Rafflesia is famous for producing the world's largest single flower, a massive, maroon bloom that can reach over a meter across. It grows only in the rainforests of the region and gives off a strong, meaty odor to attract pollinators.</p></div>
+</article>
+<article class="card">
+<div class="frame"><span class="num">06</span><img src="img/bougainvillea-1-e0f63e.png" alt="Bougainvillea"></div>
+<div class="body"><h2>Bougainvillea</h2><p>Bougainvillea is a hardy climbing vine covered in vivid papery bracts of pink, magenta, and orange. It is widely planted in the Philippines to cover fences and walls, adding a splash of color all year round.</p></div>
+</article>
+<article class="card">
+<div class="frame"><span class="num">07</span><img src="img/ilang-ilang-1-a87dad.jpg" alt="Ilang-ilang"></div>
+<div class="body"><h2>Ilang-ilang</h2><p>Ilang-ilang is a small tree whose delicate yellow flowers release an intense, sweet fragrance. The blossoms are distilled into perfume and essential oil, making the tree a valuable crop in the southern islands.</p></div>
+</article>
+<article class="card">
+<div class="frame"><span class="num">08</span><img src="img/malacon-1-403e4a.jpg" alt="Malacon"></div>
+<div class="body"><h2>Malacon</h2><p>Malacon is a tropical vine that produces clusters of small, bright flowers in shades of pink and red. It is often grown as an ornamental plant, where its cascading blooms add a cheerful touch to gardens and patios.</p></div>
+</article>
+<article class="card">
+<div class="frame"><span class="num">09</span><img src="img/gumamela-2-7308bc.jpg" alt="Gumamela"></div>
+<div class="body"><h2>Gumamela</h2><p>This second look at gumamela shows the hibiscus in a different bloom, its broad petals unfurling around a prominent central stamen. The flower is a staple of tropical landscaping across the country.</p></div>
+</article>
+<article class="card">
+<div class="frame"><span class="num">10</span><img src="img/sampaguita-2-4b1e95.jpg" alt="Sampaguita"></div>
+<div class="body"><h2>Sampaguita</h2><p>Here the sampaguita appears again, its tiny white stars clustered along the branch. The flower's gentle perfume and enduring symbolism keep it at the heart of Filipino culture and celebration.</p></div>
+</article>
+</div>
+</div>
+</main>
+<footer>
+<div class="wrap">A small celebration of the blossoms that bloom across the Philippine islands.</div>
+</footer>
+</body>
+</html>
